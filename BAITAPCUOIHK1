@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Top cách đập tan căng thẳng và áp lực">
+    <title>Top cách đập tan căng thẳng và áp lực | Nhat Minh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2370a0;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #23b12a;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 1rem;
+        }
+        h1, h2 {
+            color: #ebc50a;
+        }
+        .exercise {
+            background: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .exercise img {
+            width: 48%; /* Đảm bảo cả hai ảnh có cùng chiều rộng */
+            height: 300px; /* Đặt chiều cao cố định để cân bằng */
+            object-fit: cover; /* Giữ tỷ lệ ảnh và cắt bớt nếu cần */
+            border-radius: 5px;
+        }
+        .exercise img:first-child {
+            margin-right: 4%;
+        }       
+        .exercise-content {
+            flex: 1 1 100%;
+            margin-top: 20px;
+        }
+        .exercise-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .exercise-header p {
+            margin: 0;
+            font-weight: bold;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top cách đập tan căng thẳng và áp lực</h1>
+        <p>Danh sách các cách giảm stress</p>
+    </header>
+    <nav>
+        <a href="#">Trang Chủ</a>
+        <a href="#">Bài Tập</a>
+        <a href="#">Chế Độ Ăn</a>
+        <a href="#">Liên Hệ</a>
+    </nav>
+    <div class="container">
+        <p style="text-align: center; font-weight: bold; color: #007bff;">Bạn thường làm gì khi bị áp lực đè nén, chẳng hạn như deadline hoặc bài tập còn 1 tiếng nữa phải nộp nhưng chưa làm xong 1 nửa ? Dưới đây là 1 số cách có thể sẽ hữu ích cho bạn sau khi bạn làm xong và vẫn cảm thấy áp lực!</p>
+        <h2>1. Đập game</h2>
+        <div class="exercise">
+            <img src="https://www.phucanh.vn/media/news/1401_141030103907.jpg" alt="Barbell Curl">
+            <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/news/di-dong/lien-quan-mobile-ho-tro-che-do-120-fps-co-the-choi-tren-iphone-14-pro-max.jpg" alt="Barbell Curl">
+            <div class="exercise-content">
+                <div class="exercise-header">
+                    <p>Giúp đắm chìm vào thế giới ảo và giải trí mức độ cao<br>Trình độ: Ai cũng làm được</p>
+                </div>
+                <p style="text-align: center; font-weight: bold; color: #ff00d9;">Đập game giúp bạn quên đi thực tại và đắm chìm vào thế giới ảo nơi bạn là anh chàng 6 múi thành công và ko còn cảm giác thua kém như ở hiện thực</p>
+            </div>
+        </div>
+
+        <h2>2. Đọc sách</h2>
+        <div class="exercise">
+            <img src="https://cafefcdn.com/203337114487263232/2023/10/4/t11a2-1-16964070625121217849606-1696412620611-1696412620945108624333.jpg" alt="Dumbbell Curl">
+            <img src="https://vcdn1-vnexpress.vnecdn.net/2022/06/08/1-1654687367-3853-1654688148.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=LPi1F786cQEosauGnpK8wg" alt="Dumbbell Curl Side View">
+            <div class="exercise-content">
+                <div class="exercise-header">
+                    <p>Tác động tốt nhất lên não<br>Trình độ: Hơi hơi khó</p>
+                </div>
+                <p style="text-align: center; font-weight: bold; color: #9d327b;">Là một cách giải toả căng thẳng, bạn đc đắm chìm trong những câu chuyện triết lý, hài hước, viễn tưởng, đủ thể loại. Nhưng đọc sách 20-30p là chuyện ko phải ai cũng làm được vì họ bận chơi game và lướt điện thoại và thiếu kỉ luật, đổi lại bạn sẽ tri thức hơn và não to hơn</p>
+            </div>
+        </div>
+
+        <h2>3. Lướt điện thoại</h2>
+        <div class="exercise">
+            <img src="https://static.tuoitre.vn/tto/i/s626//2015/09/01/49e9421f.jpg" alt="Hammer Curl">
+            <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2021/12/LOAN-CAM-UNG.jpg" alt="Hammer Curl Side View">
+            <div class="exercise-content">
+                <div class="exercise-header">
+                    <p>Tác động xấu nhất lên mắt <br>Trình độ: Con nít 1 tuổi</p>
+                </div>
+                <p style="text-align: center; font-weight: bold; color: #d3254b;">Không cần phải nói nhiều về option này, là thứ đầu tiên khi làm xong deadline là kiểm tra xem có ai nhắn mình không? Lướt top top và các mxh là cách phổ biến nhất để giải toả stress và áp lực, không thể bàn cãi</p>
+            </div>
+        </div>
+
+        <h2>4. Ngồi thiền</h2>
+        <div class="exercise">
+            <img src="https://sunfitness.vn/wp-content/uploads/2022/11/cac-tu-the-ngoi-thien.jpg.webp" alt="Concentration Curl">
+            <img src="https://prod-cdn.pharmacity.io/blog/Tu-the-hoa-sen-la-tu-the-chuan-cua-ngoi-thien-.png" alt="Concentration Curl Side View">
+            <div class="exercise-content">
+                <div class="exercise-header">
+                        
+                    <p>Tác động tốt nhất: tâm trí<br>Trình độ: Chuyên nghiệp</p>
+                </div>
+                <p style="text-align: center; font-weight: bold; color: #2a0e92;">Bình thường chả ai nghĩ đến việc ngồi thiền cả nên những người giải toả tâm trí bằng việc ngồi thiền là những người rất sâu sắc, ngồi thiền giúp bạn giải toả tâm trí khỏi căng thẳng, suy nghĩ được triết lý nhân sinh, nghĩ cách kết thúc khổ đau cuộc đời, đầu óc được di chuyển vào không giới khác nơi chỉ có một mình bạn. Nói chung là 1 cách rất tuyệt vời để giải toả căng thẳng triệt để và tận gốc</p>
+            </div>
+        </div>
+    <h2 style="text-align: center; font-weight: bold; color: #e55f1c;">Trên đây là 1 số cách giúp bạn giải toả căng thẳng và mức độ làm, còn rất nhiều cách nữa nhưng đây là một số cách tôi thấy hay nhất!</h2>
+    </div>
+    <footer>
+        <p>&copy; 2025 Nhật Minh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
