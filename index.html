@@ -11,23 +11,23 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #ede6e6;
             color: #333;
         }
         header {
-            background: #2370a0;
+            background: #088511;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
         }
         nav {
             background: #23b12a;
-            color: #fff;
+            color: #3c3443;
             padding: 0.5rem;
             text-align: center;
         }
         nav a {
-            color: #fff;
+            color: #bd3333;
             margin: 0 15px;
             text-decoration: none;
         }
@@ -43,7 +43,7 @@
             color: #ebc50a;
         }
         .exercise {
-            background: #fff;
+            background: #a8d4ca;
             margin: 1rem 0;
             padding: 1rem;
             border-radius: 5px;
@@ -81,19 +81,37 @@
             padding: 1rem 0;
             margin-top: 2rem;
         }
+        .exercise img:hover {
+            transform: scale(1.1);
+            transition: 0.3s ease-in-out;
+        }
     </style>
 </head>
 <body>
+    
     <header>
         <h1>Top cách đập tan căng thẳng và áp lực</h1>
         <p>Danh sách các cách giảm stress</p>
     </header>
+    
     <nav>
         <a href="#">Trang Chủ</a>
         <a href="#">Bài Tập</a>
         <a href="#">Chế Độ Ăn</a>
         <a href="#">Liên Hệ</a>
     </nav>
+    <button onclick="toggleDarkMode()">Chuyển đổi chế độ tối</button>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    <style>
+        .dark-mode {
+            background-color: #121212;
+            color: #fff;
+        }
+</style>
     <div class="container">
         <p style="text-align: center; font-weight: bold; color: #007bff;">Bạn thường làm gì khi bị áp lực đè nén, chẳng hạn như deadline hoặc bài tập còn 1 tiếng nữa phải nộp nhưng chưa làm xong 1 nửa ? Dưới đây là 1 số cách có thể sẽ hữu ích cho bạn sau khi bạn làm xong và vẫn cảm thấy áp lực!</p>
         <h2>1. Đập game</h2>
@@ -104,7 +122,7 @@
                 <div class="exercise-header">
                     <p>Giúp đắm chìm vào thế giới ảo và giải trí mức độ cao<br>Trình độ: Ai cũng làm được</p>
                 </div>
-                <p style="text-align: center; font-weight: bold; color: #ff00d9;">Đập game giúp bạn quên đi thực tại và đắm chìm vào thế giới ảo nơi bạn là anh chàng 6 múi thành công và ko còn cảm giác thua kém như ở hiện thực</p>
+                <p style="text-align: center; font-weight: bold; color: #ff00d9;">Đập game giúp bạn quên đi thực tại và đắm chìm vào thế giới ảo nơi bạn là anh chàng 6 múi thành công và ko còn cảm giác thua kém như ở hiện thực, bạn được hoá thân thành nhân vật trong game để tạm thời quên đi áp lực cuộc sống bên ngoài và tận hưởng các trò chơi</p>
             </div>
         </div>
 
@@ -128,7 +146,7 @@
                 <div class="exercise-header">
                     <p>Tác động xấu nhất lên mắt <br>Trình độ: Con nít 1 tuổi</p>
                 </div>
-                <p style="text-align: center; font-weight: bold; color: #d3254b;">Không cần phải nói nhiều về option này, là thứ đầu tiên khi làm xong deadline là kiểm tra xem có ai nhắn mình không? Lướt top top và các mxh là cách phổ biến nhất để giải toả stress và áp lực, không thể bàn cãi</p>
+                <p style="text-align: center; font-weight: bold; color: #d3254b;">Không cần phải nói nhiều về option này, là thứ đầu tiên khi làm xong deadline là kiểm tra xem có ai nhắn mình không? Lướt top top và các mxh là cách phổ biến nhất để giải toả stress và áp lực, không thể bàn cãi, ngoài ra, xem vid hài giải trí cũng giúp giết thời gian và giải toả căng thẳng buồn bực</p>
             </div>
         </div>
 
@@ -141,11 +159,12 @@
                         
                     <p>Tác động tốt nhất: tâm trí<br>Trình độ: Chuyên nghiệp</p>
                 </div>
-                <p style="text-align: center; font-weight: bold; color: #2a0e92;">Bình thường chả ai nghĩ đến việc ngồi thiền cả nên những người giải toả tâm trí bằng việc ngồi thiền là những người rất sâu sắc, ngồi thiền giúp bạn giải toả tâm trí khỏi căng thẳng, suy nghĩ được triết lý nhân sinh, nghĩ cách kết thúc khổ đau cuộc đời, đầu óc được di chuyển vào không giới khác nơi chỉ có một mình bạn. Nói chung là 1 cách rất tuyệt vời để giải toả căng thẳng triệt để và tận gốc</p>
+                <p style="text-align: center; font-weight: bold; color: #2a0e92;">Bình thường chả ai nghĩ đến việc ngồi thiền cả nên những người giải toả tâm trí bằng việc ngồi thiền là những người rất sâu sắc, ngồi thiền giúp bạn giải toả tâm trí khỏi căng thẳng, suy nghĩ được triết lý nhân sinh, nghĩ cách kết thúc khổ đau cuộc đời, đầu óc được di chuyển vào không giới khác nơi chỉ có một mình bạn. Bỏ qua định kiến của xã hội, bạn và tâm hồn như hoà vào làm mình tạo nên sự đồng nhất của cơ thể. Nói chung là 1 cách rất tuyệt vời để giải toả căng thẳng triệt để và tận gốc</p>
             </div>
         </div>
     <h2 style="text-align: center; font-weight: bold; color: #e55f1c;">Trên đây là 1 số cách giúp bạn giải toả căng thẳng và mức độ làm, còn rất nhiều cách nữa nhưng đây là một số cách tôi thấy hay nhất!</h2>
     </div>
+    
     <footer>
         <p>&copy; 2025 Nhật Minh. All rights reserved.</p>
     </footer>
