@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USACO Guide Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #0a0f1a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #aaa;
+            transition: color 0.3s;
+        }
+        ul li a:hover {
+            color: #fff;
+        }
+        .auth-buttons button {
+            background-color: #333;
+            border: none;
+            color: #fff;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .auth-buttons button:hover {
+            background-color: #555;
+        }
+        main {
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .highlight {
+            color: #fbc531;
+            background-color: #854f00;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .get-started {
+            background-color: #6a0dad;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+        .get-started:hover {
+            background-color: #7b2cbf;
+            box-shadow: 0 0 10px #9d4edd;
+        }
+        .section {
+            max-width: 1000px;
+            margin: 50px auto;
+            text-align: left;
+        }
+        .trusted-section {
+            background-color: #000;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+        .trusted-section h2 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .trusted-stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .trusted-stats div {
+            text-align: center;
+        }
+        .trusted-stats h3 {
+            font-size: 2em;
+            color: #4c8bf5;
+        }
+        .trusted-stats p {
+            color: #bbb;
+        }
+        .view-guide {
+            background-color: #fff;
+            color: #000;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            box-shadow: 0 0 10px #9d4edd;
+        }
+        .avatar-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 50px;
+        }
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: #333;
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        /* .large-image{
+            margin: 20px auto;
+            max-width: 250px;
+        }
+        .large-image img{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        } */
+        .image-container {
+            display: flex;
+            flex-direction: column; /* Xếp ảnh theo chiều dọc */
+            align-items: center; /* Căn giữa ảnh */
+            margin: 20px auto;
+            max-width: 100px; /* Chiều rộng tối đa của container */
+            width: 50%; /* Fit toàn bộ chiều rộng có thể */
+        }
+
+        .side-image {
+            width: 50%; /* Ảnh chiếm hết chiều rộng container */
+            max-width: 100px; /* Kích thước tối đa bằng container */
+            height: auto; /* Chiều cao tự động theo tỷ lệ */
+            border-radius: 8px; /* Bo góc nhẹ */
+            margin: 10px 0; /* Khoảng cách dọc giữa các ảnh */
+            object-fit: cover; /* Ảnh fit mà không méo */
+        } 
+        .avatar-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Căn giữa theo chiều ngang */
+            text-align: center;  /* Căn giữa nội dung văn bản */
+        }
+
+        .avatar-info {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">12A7 Project</div>
+            <ul>
+                <li><a href="#">Sections</a></li>
+                <li><a href="#">Problems</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button>Search</button>
+                <button>Login</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Minh xinh iu PROJECT</h1>
+        <p>A free collection of <span class="highlight">curated, high-quality resources</span> to take you from Bronze to Platinum and beyond.</p>
+        <button class="get-started">Get Started</button>
+        <!-- Thêm ảnh to ở đây -->
+         <div class="image-container">
+            <img src="C:/Users/Admin/Pictures/z6477484952566_4dfbfb8226f6f651b13cc087b00db412.jpg" alt="Large Image" width="1060px" style="border-radius: 30px;">
+            <div style="height: 50px"></div>
+            <img src="C:\Users\Admin\Pictures\z6477584333077_43fe82046c93fddc3dd4934ebb14b36d.jpg" alt="Large Image" width="1060px" style="border-radius: 30px;">
+            <div style="height: 50px"></div>
+            <img src="C:\Users\Admin\Pictures\z6477584556650_8bb15afc495f991bc34e635cdef2e407.jpg" alt="Large Image" width="1060px" style="border-radius: 30px;">
+            <div style="height: 50px"></div>
+            <img src="C:\Users\Admin\Pictures\z6477584662615_31f4314dd0ead6b5e3d9645a8af85ce1.jpg" alt="Large Image" width="1060px" style="border-radius: 30px;">
+            
+        </div>
+            <div class="trusted-section">
+            <h2>Trusted by thousands.</h2>
+            <p>This guide is written by <span style="color:#4c8bf5">top USACO contestants</span>, including two-time IOI winner and USACO Problemsetter Benjamin Qi.</p>
+            <div class="trusted-stats">
+                <div>
+                    <h3>100k</h3>
+                    <p>Registered Users</p>
+                </div>
+                <div>
+                    <h3>24.1M</h3>
+                    <p>Pageviews</p>
+                </div>
+                <div>
+                    <h3>1682</h3>
+                    <p>GitHub Stars</p>
+                </div>
+            </div>
+            <button class="view-guide">View Guide</button>
+            <div class="avatar-grid" id="avatarGrid"></div>
+
+            
+            <script>
+                const avatars = [
+                    { src: ".", name: "VO", age: 25 },
+                    { src:"C:/Users/Admin/Documents/Zalo Received Files/anh to 1/bui nhat.jpg", name: "VO VU TO" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/dac tan.jpg", name: "oád" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/dang khoa.jpg", name: "efgg" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/đoan nhu.jpg", name: "vo anh cute qua" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/hai dang.jpg", name: "MINH" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/minh lam.jpg", name: "Mai Anh Minh cute"},
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/ngoc anh.jpg", name: "MAM xinh dep" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/ngoc diep.jpg", name: "nhat minh dep trai" },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/thao phuong.jpg", name: "yeu vo"  },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/thuc khanh.jpg", name: "hihi cute qua"  },
+                    {src: "C:/Users/Admin/Documents/Zalo Received Files/anh to 1/tien minh.jpg", name: "vo iu" }
+            ]
+                const container = document.getElementById("avatarGrid");
+                avatars.forEach(data => {
+                    container.innerHTML += `
+                        <div class="avatar-wrapper">
+                            <div class="avatar"><img src="${data.src}" alt="${data.name}"></div>
+                            <div class="avatar-info">${data.name}</div>
+                        </div>
+                    `;
+                });
+            </script>
+        </div>
+        <a href = "https://cdn.discordapp.com/attachments/1004752936708096041/1358101623443947540/image.png?ex=67f29e33&is=67f14cb3&hm=7e1fe1b7b37ef7caad2e55b07f38032a3813f1eda69b714db63e51b9acca0e40&"
+        title = "TM YEU AI VAY?" style = "color:#1ddb69" target="__blank">
+        <img src = "C:/Users/Admin/Pictures/z6262256982052_2aaffe320cf72239490b36faf6431a30.jpg" style="height:550px;width:350px">
+            
+        </a>
+    </main>
+    <footer>
+        <p>Created by the CP Initiative</p>
+    </footer>
+</body>
+<script>
+
+    </script>
+</html>
